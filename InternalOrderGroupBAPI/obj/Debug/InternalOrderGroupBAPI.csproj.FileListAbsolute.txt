@@ -1,0 +1,16 @@
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalOrderGroupBAPI.csprojAssemblyReference.cache
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalOrderGroupBAPI.Login.resources
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalOrderGroupBAPI.Properties.Resources.resources
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalOrderGroupBAPI.csproj.GenerateResource.cache
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalOrderGroupBAPI.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalGroupOrderBAPI.Overview.resources
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.exe.config
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.exe
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.pdb
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\sapnco.dll
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\sapnco_utils.dll
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalOrderGroupBAPI.csproj.CopyComplete
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalOrderGroupBAPI.exe
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalOrderGroupBAPI.pdb
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalOrderGroupBAPI.AddNode.resources
+C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\obj\Debug\InternalOrderGroupBAPI.CreateGroup.resources
