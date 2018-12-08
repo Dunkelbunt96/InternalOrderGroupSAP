@@ -17,23 +17,23 @@ namespace InternalOrderGroupBAPI
         public AddNode()
         {
             InitializeComponent();
-            String[] row = { "1000", "ATEST", "TEST"};
+            String[] row = { "A0815", "A0850"};
             AddGridView.Rows.Add(row);
         }
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
+            
             try
             {
                 RfcRepository rfcRepository = rfcDestination.Repository;
-                var AddNode = rfcRepository.CreateFunction("BAPI_COSTCENTERGROUP_ADDNODE");
+                var AddNode = rfcRepository.CreateFunction("BAPI_INTERNALORDRGRP_ADDNODE");
                 AddNode.Invoke(rfcDestination);
 
-                String contrArea = AddGridView.Rows[0].Cells[0].Value.ToString();
-                String groupName = AddGridView.Rows[0].Cells[1].Value.ToString();
-                String subgroupName = AddGridView.Rows[0].Cells[2].Value.ToString();
+                
+                String groupName = AddGridView.Rows[0].Cells[0].Value.ToString();
+                String subgroupName = AddGridView.Rows[0].Cells[1].Value.ToString();
 
-                AddNode.SetValue("CONTROLLINGAREA", contrArea);
                 AddNode.SetValue("GROUPNAME", groupName);
                 AddNode.SetValue("SUBGROUPNAME", subgroupName);
                 AddNode.Invoke(rfcDestination);

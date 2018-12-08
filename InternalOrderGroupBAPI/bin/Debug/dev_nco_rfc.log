@@ -32,3 +32,343 @@ Default trace level: None
 Invalid LZ-compressed data block received, ignored.
 >> Info entry 2018-12-08 15:37:25.530 [Thread 1]
 Invalid LZ-compressed data block received, ignored.
+
+**** Log file opened by process 48180 at 2018-12-08 16:41:20 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.exe
+Working directory: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug
+Operating system: Windows 10 Home 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DESKTOP-FR1TH4U, IP address: 172.16.24.5, IP_v6 address: 
+
+Default trace level: None
+
+>> Info entry 2018-12-08 16:41:20.430 [Thread 1]
+Invalid LZ-compressed data block received, ignored.
+>> Info entry 2018-12-08 16:41:20.617 [Thread 1]
+Invalid LZ-compressed data block received, ignored.
+
+**** Log file opened by process 47112 at 2018-12-08 16:46:33 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.exe
+Working directory: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug
+Operating system: Windows 10 Home 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DESKTOP-FR1TH4U, IP address: 172.16.24.5, IP_v6 address: 
+
+Default trace level: None
+
+>> Info entry 2018-12-08 16:46:33.138 [Thread 1]
+Invalid LZ-compressed data block received, ignored.
+>> Info entry 2018-12-08 16:46:33.321 [Thread 1]
+Invalid LZ-compressed data block received, ignored.
+
+**** Log file opened by process 67608 at 2018-12-08 18:07:42 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.exe
+Working directory: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug
+Operating system: Windows 10 Home 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DESKTOP-FR1TH4U, IP address: 172.16.24.5, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-12-08 18:07:42.634 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:07:42.636 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:07:45.794 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:07:45.795 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:08:09.275 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:08:09.276 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:08:11.337 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:08:11.338 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:08:13.634 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:08:13.634 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:08:14.310 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:08:14.310 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:08:14.466 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:08:14.466 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+
+**** Log file opened by process 61480 at 2018-12-08 18:09:12 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.exe
+Working directory: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug
+Operating system: Windows 10 Home 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DESKTOP-FR1TH4U, IP address: 172.16.24.5, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-12-08 18:09:12.497 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:09:12.499 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:09:30.197 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:09:30.197 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:09:32.329 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:09:32.330 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:09:34.836 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:09:34.836 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+
+**** Log file opened by process 72088 at 2018-12-08 18:16:10 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.exe
+Working directory: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug
+Operating system: Windows 10 Home 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DESKTOP-FR1TH4U, IP address: 172.16.24.5, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-12-08 18:16:10.136 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:16:10.140 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:16:11.250 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:16:11.250 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+
+**** Log file opened by process 69120 at 2018-12-08 18:18:23 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.exe
+Working directory: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug
+Operating system: Windows 10 Home 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DESKTOP-FR1TH4U, IP address: 172.16.24.5, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-12-08 18:18:23.524 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:18:23.526 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:18:25.568 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:18:25.568 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:18:26.369 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:18:26.370 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+
+**** Log file opened by process 70208 at 2018-12-08 18:26:11 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.exe
+Working directory: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug
+Operating system: Windows 10 Home 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DESKTOP-FR1TH4U, IP address: 172.16.24.5, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-12-08 18:26:11.656 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:26:11.663 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+
+**** Log file opened by process 75040 at 2018-12-08 18:27:45 (UTC+01:00 Mitteleuropäische Zeit)
+
+SAP .NET Connector 3.0 with file version 3.0.19.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug\InternalOrderGroupBAPI.exe
+Working directory: C:\Users\Patrick\source\repos\InternalOrderGroupBAPI\InternalOrderGroupBAPI\bin\Debug
+Operating system: Windows 10 Home 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 913
+Hostname: DESKTOP-FR1TH4U, IP address: 172.16.24.5, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-12-08 18:27:45.265 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:27:45.268 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+>> Error entry 2018-12-08 18:27:46.379 [Thread 1]
+[NAME=costCenter ASHOST=i48lp1 SAPROUTER=/H/proxy.hof-university.de/S/3299/H/saprouter.hcc.in.tum.de/S/3299/H/ SYSNR=48 SYSID=I48 USER=IDES-046 PASSWD=******** CLIENT=902 LANG=DE POOL_SIZE=10]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-12-08 18:27:46.380 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function BAPI_INTERNALORDGRP_ADDNODE not available: FU_NOT_FOUND: Funktionsbaustein BAPI_INTERNALORDGRP_ADDNODE ist nicht vorhanden
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   bei SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   bei SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)

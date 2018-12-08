@@ -62,7 +62,7 @@
             this.NameBox.Name = "NameBox";
             this.NameBox.Size = new System.Drawing.Size(148, 26);
             this.NameBox.TabIndex = 3;
-            this.NameBox.Text = "IDES-006";
+            this.NameBox.Text = "IDES-046";
             this.NameBox.TextChanged += new System.EventHandler(this.NameBox_TextChanged_2);
             // 
             // PassBox
@@ -73,7 +73,7 @@
             this.PassBox.PasswordChar = '*';
             this.PassBox.Size = new System.Drawing.Size(148, 26);
             this.PassBox.TabIndex = 4;
-            this.PassBox.Text = "6478921As";
+            this.PassBox.Text = "99so{HYc~\\nhzZs=hY}+~2BMw%GGz3oBoMY%)bF~";
             this.PassBox.TextChanged += new System.EventHandler(this.PassBox_TextChanged);
             // 
             // label1

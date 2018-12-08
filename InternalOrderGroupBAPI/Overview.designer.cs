@@ -31,10 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Overview));
             this.getListBtn = new System.Windows.Forms.Button();
             this.getListGridView = new System.Windows.Forms.DataGridView();
-            this.Cost_Area = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Groupname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CostAreaSearch = new System.Windows.Forms.TextBox();
+            this.GroupNameSearch = new System.Windows.Forms.TextBox();
             this.getDetailBtn = new System.Windows.Forms.Button();
             this.getDetailGridView = new System.Windows.Forms.DataGridView();
             this.Groupname2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,10 +46,12 @@
             this.ValFrom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ValTo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.label1 = new System.Windows.Forms.Label();
             this.topNodesCheckBox = new System.Windows.Forms.CheckBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.label1 = new System.Windows.Forms.Label();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.Groupname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.getListGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.getDetailGridView)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -70,10 +69,9 @@
             // 
             // getListBtn
             // 
-            this.getListBtn.Location = new System.Drawing.Point(2, 2);
-            this.getListBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.getListBtn.Location = new System.Drawing.Point(3, 3);
             this.getListBtn.Name = "getListBtn";
-            this.getListBtn.Size = new System.Drawing.Size(56, 19);
+            this.getListBtn.Size = new System.Drawing.Size(84, 29);
             this.getListBtn.TabIndex = 2;
             this.getListBtn.Text = "GetList";
             this.toolTip1.SetToolTip(this.getListBtn, "loads all Groups with the given Cost Area\r\n");
@@ -84,67 +82,44 @@
             // 
             this.getListGridView.AllowUserToAddRows = false;
             this.getListGridView.AllowUserToDeleteRows = false;
-            this.getListGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.getListGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.getListGridView.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.getListGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.getListGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Cost_Area,
             this.Groupname,
             this.Description});
             this.getListGridView.EnableHeadersVisualStyles = false;
-            this.getListGridView.Location = new System.Drawing.Point(3, 40);
+            this.getListGridView.Location = new System.Drawing.Point(4, 62);
+            this.getListGridView.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.getListGridView.Name = "getListGridView";
             this.getListGridView.ReadOnly = true;
             this.getListGridView.RowHeadersVisible = false;
             this.getListGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.getListGridView.ShowCellToolTips = false;
-            this.getListGridView.Size = new System.Drawing.Size(474, 350);
+            this.getListGridView.Size = new System.Drawing.Size(712, 538);
             this.getListGridView.TabIndex = 6;
             this.toolTip1.SetToolTip(this.getListGridView, "Cost_Area: the Cost Area of the loaded Groups\r\nGroupname: the name of the groups\r" +
         "\nDescript: the description of the groups");
             this.getListGridView.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.getListGridView_MouseDoubleClick);
             // 
-            // Cost_Area
+            // GroupNameSearch
             // 
-            this.Cost_Area.FillWeight = 70F;
-            this.Cost_Area.HeaderText = "Cost_Area";
-            this.Cost_Area.Name = "Cost_Area";
-            this.Cost_Area.ReadOnly = true;
-            this.Cost_Area.Width = 70;
-            // 
-            // Groupname
-            // 
-            this.Groupname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Groupname.FillWeight = 50F;
-            this.Groupname.HeaderText = "Groupname";
-            this.Groupname.Name = "Groupname";
-            this.Groupname.ReadOnly = true;
-            // 
-            // Description
-            // 
-            this.Description.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Description.HeaderText = "Description";
-            this.Description.MinimumWidth = 100;
-            this.Description.Name = "Description";
-            this.Description.ReadOnly = true;
-            // 
-            // CostAreaSearch
-            // 
-            this.CostAreaSearch.Location = new System.Drawing.Point(3, 3);
-            this.CostAreaSearch.Name = "CostAreaSearch";
-            this.CostAreaSearch.Size = new System.Drawing.Size(100, 20);
-            this.CostAreaSearch.TabIndex = 7;
-            this.CostAreaSearch.Text = "1000";
-            this.toolTip1.SetToolTip(this.CostAreaSearch, "Specifies the Cost Area");
-            this.CostAreaSearch.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.GroupNameSearch.Location = new System.Drawing.Point(4, 5);
+            this.GroupNameSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.GroupNameSearch.Name = "GroupNameSearch";
+            this.GroupNameSearch.Size = new System.Drawing.Size(148, 26);
+            this.GroupNameSearch.TabIndex = 7;
+            this.toolTip1.SetToolTip(this.GroupNameSearch, "Specifies the Cost Area");
+            this.GroupNameSearch.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // getDetailBtn
             // 
-            this.getDetailBtn.Location = new System.Drawing.Point(483, 3);
+            this.getDetailBtn.Location = new System.Drawing.Point(724, 5);
+            this.getDetailBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.getDetailBtn.Name = "getDetailBtn";
-            this.getDetailBtn.Size = new System.Drawing.Size(93, 23);
+            this.getDetailBtn.Size = new System.Drawing.Size(140, 35);
             this.getDetailBtn.TabIndex = 8;
             this.getDetailBtn.Text = "Load Hierarchy";
             this.toolTip1.SetToolTip(this.getDetailBtn, "loads the hierarchy of the selected group (alt. douple click a group)");
@@ -155,8 +130,8 @@
             // 
             this.getDetailGridView.AllowUserToAddRows = false;
             this.getDetailGridView.AllowUserToDeleteRows = false;
-            this.getDetailGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.getDetailGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.getDetailGridView.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.getDetailGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -166,13 +141,14 @@
             this.ValCount,
             this.Descript});
             this.getDetailGridView.EnableHeadersVisualStyles = false;
-            this.getDetailGridView.Location = new System.Drawing.Point(3, 3);
+            this.getDetailGridView.Location = new System.Drawing.Point(4, 5);
+            this.getDetailGridView.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.getDetailGridView.Name = "getDetailGridView";
             this.getDetailGridView.ReadOnly = true;
             this.getDetailGridView.RowHeadersVisible = false;
             this.getDetailGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.getDetailGridView.ShowCellToolTips = false;
-            this.getDetailGridView.Size = new System.Drawing.Size(468, 176);
+            this.getDetailGridView.Size = new System.Drawing.Size(702, 270);
             this.getDetailGridView.TabIndex = 9;
             this.toolTip1.SetToolTip(this.getDetailGridView, resources.GetString("getDetailGridView.ToolTip"));
             // 
@@ -206,9 +182,10 @@
             // 
             // CreateGroupBtn
             // 
-            this.CreateGroupBtn.Location = new System.Drawing.Point(12, 12);
+            this.CreateGroupBtn.Location = new System.Drawing.Point(18, 18);
+            this.CreateGroupBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CreateGroupBtn.Name = "CreateGroupBtn";
-            this.CreateGroupBtn.Size = new System.Drawing.Size(111, 23);
+            this.CreateGroupBtn.Size = new System.Drawing.Size(166, 35);
             this.CreateGroupBtn.TabIndex = 12;
             this.CreateGroupBtn.Text = "Create new Group";
             this.toolTip1.SetToolTip(this.CreateGroupBtn, "opens a new window to specify a new group to create\r\n");
@@ -217,9 +194,10 @@
             // 
             // AddNodeBtn
             // 
-            this.AddNodeBtn.Location = new System.Drawing.Point(141, 12);
+            this.AddNodeBtn.Location = new System.Drawing.Point(212, 18);
+            this.AddNodeBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AddNodeBtn.Name = "AddNodeBtn";
-            this.AddNodeBtn.Size = new System.Drawing.Size(97, 23);
+            this.AddNodeBtn.Size = new System.Drawing.Size(146, 35);
             this.AddNodeBtn.TabIndex = 13;
             this.AddNodeBtn.Text = "Add Subgroup";
             this.toolTip1.SetToolTip(this.AddNodeBtn, "opens a window to add on group to another as an subgroup");
@@ -228,8 +206,8 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -238,17 +216,19 @@
             this.tableLayoutPanel1.Controls.Add(this.getListGridView, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.getDetailBtn, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 58);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(18, 89);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.505229F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90.49477F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(960, 393);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1440, 605);
             this.tableLayoutPanel1.TabIndex = 14;
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Location = new System.Drawing.Point(483, 40);
+            this.splitContainer1.Location = new System.Drawing.Point(724, 62);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -259,8 +239,9 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.valueDataGrid);
-            this.splitContainer1.Size = new System.Drawing.Size(474, 350);
-            this.splitContainer1.SplitterDistance = 182;
+            this.splitContainer1.Size = new System.Drawing.Size(711, 538);
+            this.splitContainer1.SplitterDistance = 279;
+            this.splitContainer1.SplitterWidth = 6;
             this.splitContainer1.TabIndex = 15;
             // 
             // valueDataGrid
@@ -269,10 +250,11 @@
             this.valueDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ValFrom,
             this.ValTo});
-            this.valueDataGrid.Location = new System.Drawing.Point(0, -1);
+            this.valueDataGrid.Location = new System.Drawing.Point(0, -2);
+            this.valueDataGrid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.valueDataGrid.Name = "valueDataGrid";
             this.valueDataGrid.ShowCellToolTips = false;
-            this.valueDataGrid.Size = new System.Drawing.Size(471, 162);
+            this.valueDataGrid.Size = new System.Drawing.Size(706, 249);
             this.valueDataGrid.TabIndex = 0;
             // 
             // ValFrom
@@ -292,17 +274,48 @@
             this.flowLayoutPanel1.Controls.Add(this.getListBtn);
             this.flowLayoutPanel1.Controls.Add(this.splitContainer2);
             this.flowLayoutPanel1.Controls.Add(this.topNodesCheckBox);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 5);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(474, 30);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(711, 46);
             this.flowLayoutPanel1.TabIndex = 10;
+            // 
+            // splitContainer2
+            // 
+            this.splitContainer2.Location = new System.Drawing.Point(94, 5);
+            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.splitContainer2.Name = "splitContainer2";
+            // 
+            // splitContainer2.Panel1
+            // 
+            this.splitContainer2.Panel1.Controls.Add(this.label1);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.Controls.Add(this.GroupNameSearch);
+            this.splitContainer2.Size = new System.Drawing.Size(258, 43);
+            this.splitContainer2.SplitterDistance = 88;
+            this.splitContainer2.SplitterWidth = 6;
+            this.splitContainer2.TabIndex = 16;
+            this.splitContainer2.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer2_SplitterMoved);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(18, 8);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 20);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "GroupName:";
             // 
             // topNodesCheckBox
             // 
             this.topNodesCheckBox.AutoSize = true;
-            this.topNodesCheckBox.Location = new System.Drawing.Point(241, 3);
+            this.topNodesCheckBox.Location = new System.Drawing.Point(360, 5);
+            this.topNodesCheckBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.topNodesCheckBox.Name = "topNodesCheckBox";
-            this.topNodesCheckBox.Size = new System.Drawing.Size(101, 17);
+            this.topNodesCheckBox.Size = new System.Drawing.Size(144, 24);
             this.topNodesCheckBox.TabIndex = 8;
             this.topNodesCheckBox.Text = "only Top Nodes";
             this.toolTip1.SetToolTip(this.topNodesCheckBox, "toggles if groups with higher Hierarchy Level than 0 will be displayed\r\n");
@@ -312,44 +325,33 @@
             // 
             this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
-            // label1
+            // Groupname
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 5);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Cost Area:";
+            this.Groupname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Groupname.FillWeight = 50F;
+            this.Groupname.HeaderText = "Groupname";
+            this.Groupname.Name = "Groupname";
+            this.Groupname.ReadOnly = true;
             // 
-            // splitContainer2
+            // Description
             // 
-            this.splitContainer2.Location = new System.Drawing.Point(63, 3);
-            this.splitContainer2.Name = "splitContainer2";
-            // 
-            // splitContainer2.Panel1
-            // 
-            this.splitContainer2.Panel1.Controls.Add(this.label1);
-            // 
-            // splitContainer2.Panel2
-            // 
-            this.splitContainer2.Panel2.Controls.Add(this.CostAreaSearch);
-            this.splitContainer2.Size = new System.Drawing.Size(172, 28);
-            this.splitContainer2.SplitterDistance = 65;
-            this.splitContainer2.TabIndex = 16;
-            this.splitContainer2.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer2_SplitterMoved);
+            this.Description.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Description.HeaderText = "Description";
+            this.Description.MinimumWidth = 100;
+            this.Description.Name = "Description";
+            this.Description.ReadOnly = true;
             // 
             // Overview
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(984, 463);
+            this.ClientSize = new System.Drawing.Size(1476, 712);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.AddNodeBtn);
             this.Controls.Add(this.CreateGroupBtn);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(1000, 500);
+            this.MinimumSize = new System.Drawing.Size(1489, 739);
             this.Name = "Overview";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CostCenterGroupBAPI";
@@ -376,12 +378,9 @@
         #endregion
         private System.Windows.Forms.Button getListBtn;
         private System.Windows.Forms.DataGridView getListGridView;
-        private System.Windows.Forms.TextBox CostAreaSearch;
+        private System.Windows.Forms.TextBox GroupNameSearch;
         private System.Windows.Forms.Button getDetailBtn;
         private System.Windows.Forms.DataGridView getDetailGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cost_Area;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Groupname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Description;
         private System.Windows.Forms.DataGridViewTextBoxColumn Groupname2;
         private System.Windows.Forms.DataGridViewTextBoxColumn HierarchyLevel;
         private System.Windows.Forms.DataGridViewTextBoxColumn ValCount;
@@ -398,6 +397,8 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Groupname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Description;
     }
 }
 

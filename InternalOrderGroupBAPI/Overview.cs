@@ -28,9 +28,9 @@ namespace InternalGroupOrderBAPI
             try
             {
                 RfcRepository rfcRepository = rfcDestination.Repository;
-                var getList = rfcRepository.CreateFunction("BAPI_COSTCENTERGROUP_GETLIST");
+                var getList = rfcRepository.CreateFunction("BAPI_INTERNALORDRGRP_GETLIST");
                 getList.Invoke(rfcDestination);
-                getList.SetValue("CONTROLLINGAREAMASK", CostAreaSearch.Text);
+                getList.SetValue("GROUPNAMEMASK", GroupNameSearch.Text+"*");
                 if (topNodesCheckBox.Checked)
                 {
                     getList.SetValue("TOPNODESONLY", "X");
@@ -41,10 +41,10 @@ namespace InternalGroupOrderBAPI
                 getListGridView.Rows.Clear();
                 for (int i = 0; i < table.RowCount; i++)
                 {
-                    String costArea = table[i].GetString("CO_AREA");
+                    
                     String groupname = table[i].GetString("GROUPNAME");
                     String descript = table[i].GetString("DESCRIPT");
-                    String[] row = { costArea, groupname, descript };
+                    String[] row = { groupname, descript };
                     getListGridView.Rows.Add(row);
                 }
             }
@@ -110,14 +110,11 @@ namespace InternalGroupOrderBAPI
             try
             {
                 RfcRepository rfcRepository = rfcDestination.Repository;
-                var getDetail = rfcRepository.CreateFunction("BAPI_COSTCENTERGROUP_GETDETAIL");
+                var getDetail = rfcRepository.CreateFunction("BAPI_INTERNALORDRGRP_GETDETAIL");
                 getDetail.Invoke(rfcDestination);
 
+                String groupName = getListGridView.SelectedRows[0].Cells[0].Value.ToString();
 
-                String contrArea = getListGridView.SelectedRows[0].Cells[0].Value.ToString();
-                String groupName = getListGridView.SelectedRows[0].Cells[1].Value.ToString();
-
-                getDetail.SetValue("CONTROLLINGAREA", contrArea);
                 getDetail.SetValue("GROUPNAME", groupName);
                 getDetail.Invoke(rfcDestination);
 

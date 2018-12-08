@@ -18,7 +18,7 @@ namespace InternalOrderGroupBAPI
         {
             
             InitializeComponent();
-            String[] row = { "1000", "ATEST", "0", "TestTest2" };
+            String[] row = { "A0815", "0", "A Standard group" };
             createGridView.Rows.Add(row);
         }
 
@@ -27,20 +27,16 @@ namespace InternalOrderGroupBAPI
             try
             {
                 RfcRepository rfcRepository = rfcDestination.Repository;
-                var create = rfcRepository.CreateFunction("BAPI_COSTCENTERGROUP_CREATE");
+                var create = rfcRepository.CreateFunction("BAPI_INTERNALORDRGRP_CREATE");
                 create.Invoke(rfcDestination);
-
-
-                String contrArea = createGridView.Rows[0].Cells[0].Value.ToString();
-
 
                 var hierarchyTable = create.GetTable("HIERARCHYNODES");
                 hierarchyTable.Append();
                 
-                String groupName = createGridView.Rows[0].Cells[1].Value.ToString();
+                String groupName = createGridView.Rows[0].Cells[0].Value.ToString();
                 String hierLevel = "0";
-                String valcount = createGridView.Rows[0].Cells[2].Value.ToString();
-                String descript = createGridView.Rows[0].Cells[3].Value.ToString();
+                String valcount = createGridView.Rows[0].Cells[1].Value.ToString();
+                String descript = createGridView.Rows[0].Cells[2].Value.ToString();
 
                 hierarchyTable.SetValue("GROUPNAME", groupName);
                 hierarchyTable.SetValue("HIERLEVEL", hierLevel);
@@ -49,7 +45,6 @@ namespace InternalOrderGroupBAPI
 
 
                 IRfcTable hierarchyValuesTable = create.GetTable("HIERARCHYVALUES");
-                //Ohne Append können die Values nicht gesetzt werden
                 hierarchyValuesTable.Append();
                 for(int i = 0; i+1 < valueDataGrid.RowCount; i++)
                 {
@@ -66,25 +61,12 @@ namespace InternalOrderGroupBAPI
                     
                 }
 
-
                 create.SetValue("HIERARCHYNODES", hierarchyTable);
                 create.SetValue("HIERARCHYVALUES", hierarchyValuesTable);
-                create.SetValue("CONTROLLINGAREAIMP", contrArea);
                 create.Invoke(rfcDestination);
                 this.Close();
             }
-            /*catch (RfcCommunicationException ex)
-            {
-                Console.Out.WriteLine(ex.Message);
-            }
-            catch (RfcLogonException ex)
-            {
-                Console.Out.WriteLine(ex.Message);
-            }
-            catch (RfcAbapRuntimeException ex)
-            {
-                Console.Out.WriteLine(ex.Message);
-            }*/
+            
             catch (Exception ex)
             {
                 Console.Out.WriteLine(ex.Message);
@@ -99,7 +81,7 @@ namespace InternalOrderGroupBAPI
 
         private void valueDataGrid_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
         {
-            createGridView.Rows[0].Cells[2].Value = valueDataGrid.Rows.Count -1;
+            createGridView.Rows[0].Cells[1].Value = valueDataGrid.Rows.Count -1;
             
         }
 
